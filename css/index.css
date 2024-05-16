@@ -1,0 +1,130 @@
+body,
+h1 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header {
+    position: fixed;
+    width: 100%;
+
+
+}
+
+
+
+.header {
+
+    color: rgb(228, 214, 207);
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #291d1a;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigaton {
+    display: flex;
+
+
+}
+
+.home {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: large;
+}
+
+.catalog {
+    display: inline-block;
+    border-left: rgb(228, 214, 207) solid 1px;
+    padding-left: 7px;
+}
+
+.catalog_link {
+    text-decoration: none;
+    color: rgb(228, 214, 207);
+}
+
+.img {
+
+    height: 600px;
+    background-image: url('../assets/157352-skazki_barda_bidla-garri_potter-korichnevyj_cvet-drevesina-liniya-1920x1080.jpg');
+}
+
+.exclusive {
+    height: 450px;
+    color: rgb(228, 214, 207);
+    background-color: #53403b;
+
+}
+
+
+
+hr {
+    border: 0;
+    height: 3px;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, #53403b, rgb(228, 214, 207), #53403b);
+    background-image: -moz-linear-gradient(left, #53403b, rgb(228, 214, 207), #53403b);
+    background-image: -ms-linear-gradient(left, #53403b, rgb(228, 214, 207), #53403b);
+    background-image: -o-linear-gradient(left, #53403b, rgb(228, 214, 207), #53403b);
+
+}
+
+.map {
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(192, 175, 167);
+}
+
+.infoimg {
+    height: 300px;
+    border-radius: 7px;
+
+}
+
+
+.broom {
+    height: 70px;
+    width: 90px;
+}
+
+.info {
+    color: #53403b;
+    font-size: 30px;
+    margin: 0;
+}
+
+.excl {
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #201715;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.number {
+    margin: 0;
+    color: rgb(192, 175, 167);
+    margin-left: 50px;
+}

@@ -1,0 +1,129 @@
+body,
+h1 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.header {
+
+    color: rgb(228, 214, 207);
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #291d1a;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigaton {
+    display: flex;
+
+
+}
+
+.home {
+    display: inline-block;
+    margin-right: 6px;
+
+}
+
+.catalog {
+    display: inline-block;
+    border-left: rgb(228, 214, 207) solid 1px;
+    padding-left: 7px;
+    font-size: large;
+}
+
+.catalog_link {
+    text-decoration: none;
+    color: rgb(228, 214, 207);
+}
+
+main {
+    padding-top: 200px;
+    background-color: rgb(192, 175, 167);
+    height: 800px;
+}
+
+.home_link {
+    text-decoration: none;
+    color: rgb(228, 214, 207);
+}
+
+
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.text {
+    margin: 4px;
+    color: #473834;
+    text-align: left;
+}
+
+.open {
+    margin: 7px;
+    background-color: rgb(141, 128, 122);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+
+}
+
+.open:active {
+    background-color: rgb(107, 99, 96);
+}
+
+.card {
+    padding: 7px;
+    background-color: rgb(228, 214, 207);
+    border: rgb(141, 128, 122) solid 5px;
+    border-radius: 30px;
+    width: 200px;
+    height: 275px;
+}
+
+.cards123 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.cards456 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    background-color: #201715;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.number {
+    margin: 0;
+    color: rgb(192, 175, 167);
+    margin-left: 50px;
+}
